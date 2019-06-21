@@ -5,16 +5,7 @@ import { compareUser } from '../helpers';
 export default class GamingRoomController {
   constructor() {
     const { country, capital, question } = geographyQuizGenerator();
-    this.rooms = [
-      {
-        name: 'public',
-        owner: {},
-        members: [],
-        question,
-        capital,
-        country
-      }
-    ];
+    this.rooms = [];
   }
 
   createRoom(owner, name) {
