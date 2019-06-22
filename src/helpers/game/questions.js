@@ -22,7 +22,7 @@ export default {
       { name: 'Ghana', capital: 'Accra' },
       { name: 'Guinea Bissau', capital: 'Bissau' },
       { name: 'Guinea', capital: 'Conakry' },
-      { name: 'Ivory Coast', capital: '' },
+      { name: 'Ivory Coast', capital: 'Yamoussoukro' },
       { name: 'Kenya', capital: 'Nairobi' },
       { name: 'Lesotho', capital: 'Maseru' },
       { name: 'Liberia', capital: 'Monrovia' },
@@ -37,7 +37,7 @@ export default {
       { name: 'Namibia', capital: 'Windhoek' },
       { name: 'Niger', capital: 'Niamey' },
       { name: 'Nigeria', capital: 'Abuja' },
-      { name: 'Republic of the Congo', capital: 'Kinshasa' },
+      { name: 'Republic of the Congo', capital: 'Brazzaville' },
       { name: 'Rwanda', capital: 'Kigali' },
       { name: 'Senegal', capital: 'Dakar' },
       { name: 'Seychelles', capital: 'Victoria' },
@@ -52,7 +52,6 @@ export default {
       { name: 'Togo', capital: 'Lomé' },
       { name: 'Tunisia', capital: 'Tunis' },
       { name: 'Uganda', capital: 'Kampala' },
-      { name: 'Western Sahara', capital: '' },
       { name: 'Zambia', capital: 'Lusaka' },
       { name: 'Zimbabwe', capital: 'Harare' }
     ]
