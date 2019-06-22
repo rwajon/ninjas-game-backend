@@ -93,8 +93,9 @@ io.on('connection', (socket) => {
   });
 
   socket.on('replayGame', (member, room) => {
-    socket.emit('gameReplayed', gamingRoom.replayGame(member, room));
-    socket.broadcast.emit('gameReplayed', gamingRoom.replayGame(member, room));
+    const updatedRoom = gamingRoom.replayGame(member, room);
+    socket.emit('gameReplayed', updatedRoom);
+    socket.broadcast.emit('gameReplayed', updatedRoom);
   });
 });
 
